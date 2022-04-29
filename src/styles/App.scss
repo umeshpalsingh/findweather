@@ -1,0 +1,110 @@
+$color-primary: #111827;
+$color-secondary: #112D4E;
+$color-btn: #5463FF;
+$color-light: #eee;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  background-color: $color-secondary;
+  overflow: hidden;
+  color: $color-light;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  max-width: 30rem;
+  min-width: 15rem;
+  margin: 40px auto;
+  border-radius: 20px;
+  background-color: $color-primary;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  .input {
+    font-family: 'Poppins', sans-serif;
+    color: $color-light;
+    width: 80%;
+    padding: 20px;
+    background-color: inherit;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+  }
+
+  ::placeholder {
+    color: $color-light;
+  }
+
+  .search-btn {
+    font-family: 'Poppins', sans-serif;
+    background-color: $color-btn;
+    color: $color-light;
+    padding: 20px 24px;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+  }
+}
+
+.weather-card {
+  background-image: url('../transparent-bg.svg');
+  background-size: cover;
+  max-width: 30rem;
+  min-width: 15rem;
+  margin: 20px auto;
+  &:hover {
+    transition: all .2s;
+    filter: drop-shadow(0 0 5px $color-primary);
+  }
+}
+
+.instruction-card {
+  text-align: center;
+  max-width: 30rem;
+  min-width: 15rem;
+  margin: 20px auto;
+  filter: drop-shadow(0 0 1px $color-light);
+}
+
+@media only screen and (max-width: 600px) {
+
+  .appbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+  .form {
+    max-width: 90%;
+  }
+
+  .weather-card {
+    max-width: 90%;
+  }
+
+  .instruction-card {
+    max-width: 90%;
+  }
+}
