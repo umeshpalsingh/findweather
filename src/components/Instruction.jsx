@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Typography, Chip, Grow, Box } from "@mui/material";
-import SunLogo from "../Logo.svg";
+import SunLogo from "../images/Logo.svg";
 
 function Instruction() {
     return (
