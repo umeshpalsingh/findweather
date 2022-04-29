@@ -13,7 +13,7 @@ function Appbar() {
                         <NightsStayRoundedIcon sx={{ color: '#eee', filter: 'drop-shadow(0 0 10px #eee)', fontSize: "2.5rem" }} />
                     </IconButton>
                     <Typography variant="h1" sx={{ fontSize: "1.2rem", fontFamily: "Poppins", fontWeight: '700', flexGrow: 1 }}>
-                        FindWeather
+                        Umesh Pal Singh
                     </Typography>
                     <a href="https://github.com/umeshpalsingh" target='_blank' rel="noreferrer">
                         <IconButton sx={{ color: "#eee", filter: 'drop-shadow(0 0 5px #eee)' }} >
