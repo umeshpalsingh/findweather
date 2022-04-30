@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/findweather/static/css/main.33408e36.css",
-    "main.js": "/findweather/static/js/main.81f89ca7.js",
+    "main.css": "/findweather/static/css/main.0fa31810.css",
+    "main.js": "/findweather/static/js/main.20ba9fd7.js",
     "static/media/Logo.svg": "/findweather/static/media/Logo.1be3e9e770b857e570fe6719fac8bb3d.svg",
     "index.html": "/findweather/index.html",
-    "static/media/transparent-bg.svg": "/findweather/static/media/transparent-bg.179646cd135323dfae30.svg",
-    "main.33408e36.css.map": "/findweather/static/css/main.33408e36.css.map",
-    "main.81f89ca7.js.map": "/findweather/static/js/main.81f89ca7.js.map"
+    "main.0fa31810.css.map": "/findweather/static/css/main.0fa31810.css.map",
+    "main.20ba9fd7.js.map": "/findweather/static/js/main.20ba9fd7.js.map"
   },
   "entrypoints": [
-    "static/css/main.33408e36.css",
-    "static/js/main.81f89ca7.js"
+    "static/css/main.0fa31810.css",
+    "static/js/main.20ba9fd7.js"
   ]
 }
