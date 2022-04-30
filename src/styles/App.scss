@@ -67,25 +67,32 @@ body {
 }
 
 .weather-card {
-  background-image: url('../images/transparent-bg.svg');
-  background-size: cover;
   max-width: 30rem;
   min-width: 15rem;
   margin: 20px auto;
-  &:hover {
-    transition: all .2s;
-    filter: drop-shadow(0 0 5px $color-primary);
-  }
 }
 
 .instruction-card {
-  background-image: radial-gradient(circle, rgba(125,125,238,.5) 0%, rgba(9,9,121,.8) 100%),
-   url('https://picsum.photos/id/1019/200/300');
-  background-size: cover;
   text-align: center;
   max-width: 30rem;
   min-width: 15rem;
   margin: 20px auto;
+}
+
+.Logo {
+  width: 200px;
+  margin: 1em auto;
+  filter: drop-shadow(0 0 5px rgba(190, 190, 165, 0.503));
+  animation: rotate 5s linear infinite;
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
 }
 
 @media only screen and (max-width: 600px) {
